@@ -1,0 +1,8 @@
+.project
+.settings/
+.DS_Store
+customer-service/.DS_Store
+product-service/.DS_Store
+order-service/.DS_Store
+discovery-service/.DS_Store
+gateway-service/.DS_Store
