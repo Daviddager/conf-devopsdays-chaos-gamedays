@@ -1,38 +1,52 @@
 spring:
   application:
-    name: product-service
+    name: order-service
   datasource:
-    url: jdbc:mysql://chaotic.cbyyav1ximog.us-east-1.rds.amazonaws.com:3306/chaotic?useSSL=false
-    username: admin
-    password: chaos4m1g0.
+    url: changeit
+    username: changeit
+    password: changeit
     driverClassName: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
-  sleuth:
-    opentracing:
-      enabled: false
-      
+    
 server:
-  port: 8092
+  port: 8091
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+logging:
+  level:
+    de.codecentric: TRACE
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 10000
+        loggerLevel: basic
+  hystrix:
+    enabled: false
+
+ribbon:
+  ConnectTimeout: 10000
+  ReadTimeout: 10000
+                   
 chaos:
   monkey:
-    enabled: true
+    enabled: false
     assaults:
       level: 1
-      latencyRangeStart: 5000
-      latencyRangeEnd: 10000
+      latencyRangeStart: 1000
+      latencyRangeEnd: 5000
       exceptionsActive: false
       killApplicationActive: false
     watcher:
       repository: true
-      restController: true
       
 management:
   endpoint:
