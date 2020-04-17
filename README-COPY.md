@@ -1,7 +1,7 @@
 # Toolbox with resources to run a Chaos Gameday
 
 <div align="center">
-  <img src="resources/images/gameday_animation.gif" width="400px" />
+  <img src="https://github.com/yurynino/conf-devopsdays-chaos-gamedays/blob/master/images/gameday_animation.gif" width="400px" />
 
   [![chaos-monkey](https://img.shields.io/badge/chaosmonkey-v2.0.0-yellow.svg)](https://codecentric.github.io/chaos-monkey-spring-boot/2.0.0/)
   [![java](https://img.shields.io/badge/java-v1.8-green.svg)](https://www.oracle.com/java/technologies)
@@ -11,21 +11,14 @@
   [![datadog](https://img.shields.io/badge/datadog-v7.x-red.svg)](https://www.datadoghq.com/)
 </div>
 
-> This repository contains the resources required to run a chaos gameday. The documentation is arranged per stages; before, during and afer. so consider reading them in tho proposed order.
->
-> Is aimed to anyone interested in both participating or hosting a Chaos Gameday, or anyone who is just starting on the ***awesome*** world of Chaos.
+  > This repository contains the artifacts required to run a chaos gameday in a sample cluster with spring boot microservices. The documentation is arranged per steps, so consider review then in the propose order. For now it just contins information to execute the Step 3 - Run.
 
 
 ## Table of Contents
-- [1. Before Gameday MUST-READ](resources/1_before/BEFORE.md "Read this first!")
-    - [Intro to Chaos](resources/1_before/BEFORE.md/#intro-to-chaos "Intro to Chaos")
-    - [What is a Gameday?](resources/1_before/BEFORE.md/#Gamedays "What is a Gameday")
-    - [What is a Postmortem](resources/1_before/BEFORE.md/#postmortems "What is a Postmortem")
-- [2. During Gameday resources](resources/2_gamedays/GAMEDAY.md "All our gamedays")
-    - [Springboot Gameday](resources/2_gamedays/springboot/INDEX.md "Springboot Gameday")
-- [3. After Gameday Resources](resources/3_postmortem/POSTMORTEM.md "What's next?")
-    - [Survey]()
-- [Further Reading](#further-reading "Useful links")
+- [1. Plan](https://github.com/yurynino/conf-devopsdays-chaos-gamedays/tree/master/1_plan)
+- [2. Experiment](https://github.com/yurynino/conf-devopsdays-chaos-gamedays/tree/master/2_experiment)
+- [4. Postmortem](https://github.com/yurynino/conf-devopsdays-chaos-gamedays/tree/master/3_postmortem)
+- [Further Reading](#further-reading)
 
 
 ## Further Reading
@@ -50,4 +43,4 @@
 
 -----------
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/yurynino/conf-devopsdays-chaos-gamedays/blob/master/CONTRIBUTING.md)
