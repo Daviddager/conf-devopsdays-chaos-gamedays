@@ -17,13 +17,13 @@
 
 
 ## Table of Contents
-- [1. Before Gameday MUST-READ](resources/1_before/BEFORE.md "Read this first!")
-    - [Intro to Chaos](resources/1_before/BEFORE.md/#intro-to-chaos "Intro to Chaos")
-    - [What is a Gameday?](resources/1_before/BEFORE.md/#Gamedays "What is a Gameday")
-    - [What is a Postmortem](resources/1_before/BEFORE.md/#postmortems "What is a Postmortem")
-- [2. During Gameday resources](resources/2_gamedays/GAMEDAY.md "All our gamedays")
-    - [Springboot Gameday](resources/2_gamedays/springboot/INDEX.md "Springboot Gameday")
-- [3. After Gameday Resources](resources/3_postmortem/POSTMORTEM.md "What's next?")
+- [1. Before Gameday MUST-READ](resources/1_before/README.md "Read this first!")
+    - [Intro to Chaos](resources/1_before/README.md/#Intro "Intro to Chaos")
+    - [What is a Gameday?](resources/1_before/README.md/#Gamedays "What is a Gameday")
+    - [What is a Postmortem](resources/1_before/README.md/#Postmortems "What is a Postmortem")
+- [2. During Gameday resources](resources/2_gamedays/README.md "All our gamedays")
+    - [Springboot Gameday](resources/2_gamedays/springboot/README.md "Springboot Gameday")
+- [3. After Gameday Resources](resources/3_postmortem/README.md "What's next?")
     - [Survey]()
 - [Further Reading](#further-reading "Useful links")
 
